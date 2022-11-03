@@ -19,6 +19,10 @@ My development environment is
 
 Starting the tests using the kotest plugin does not work. The PostgreSQL testcontainer is not started.
 
+## Using gradle to run tests
+
+Running the tests using gradle, either started in IntelliJ or in the CLI, the testcontainer is started and the tests are executed as expected.
+
 ## WSL2
 
 Running `gradle build` works. The PostgreSQL testcontainer is started, the test is executed as expected.
