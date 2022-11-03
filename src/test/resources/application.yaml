@@ -1,0 +1,5 @@
+datasources:
+  default:
+    schema-generate: CREATE
+    db-type: postgres
+

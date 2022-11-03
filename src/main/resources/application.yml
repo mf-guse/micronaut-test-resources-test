@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: example
+netty:
+  default:
+    allocator:
+      max-order: 3
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        connection:
+          db-type: postgres
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect
+    reactive: true
+    entity-scan:
+      packages: 'de.mf.micronaut.resources.db.model'
